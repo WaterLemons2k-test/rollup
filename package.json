@@ -1,0 +1,16 @@
+{
+  "name": "rollup",
+  "description": "A Userscript.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c --configPlugin typescript",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.11.9",
+    "rollup": "^4.9.6",
+    "tslib": "^2.6.2"
+  }
+}
